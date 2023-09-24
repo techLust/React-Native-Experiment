@@ -59,7 +59,7 @@ export const MainApp = () => {
 
             // headerRight: () => (
             //   <Button
-            //     onPress={() => alert('Post a blog')}
+            //     onPress={() => navigation.navigator('CreatePost')}
             //     title="Post"
             //   // color="green"
             //   />

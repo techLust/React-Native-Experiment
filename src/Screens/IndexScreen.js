@@ -36,12 +36,12 @@ const IndexScreen = ({ navigation }) => {
   )
 }
 
-IndexScreen.navigationOptions = ({ navigation }) => {
+IndexScreen.navigationOptions = () => {
   
   return {
     headerRight: () => (
       <Button
-        title="Navigate"
+        title="Post"
         color='green'
         onPress={() => {navigation.navigate('CreateBlogScreen') }}
       />
